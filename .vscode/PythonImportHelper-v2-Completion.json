@@ -1,0 +1,388 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_env",
+        "importPath": "config.env_handler",
+        "description": "config.env_handler",
+        "isExtraImport": true,
+        "detail": "config.env_handler",
+        "documentation": {}
+    },
+    {
+        "label": "BoardsEndpointsConstants",
+        "importPath": "api.tests.boards.constants.BoardsEndpointsConstants",
+        "description": "api.tests.boards.constants.BoardsEndpointsConstants",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.constants.BoardsEndpointsConstants",
+        "documentation": {}
+    },
+    {
+        "label": "BoardsEndpointsConstants",
+        "importPath": "api.tests.boards.constants.BoardsEndpointsConstants",
+        "description": "api.tests.boards.constants.BoardsEndpointsConstants",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.constants.BoardsEndpointsConstants",
+        "documentation": {}
+    },
+    {
+        "label": "BoardEndpoints",
+        "importPath": "api.tests.boards.endpoints.boards_endpoints",
+        "description": "api.tests.boards.endpoints.boards_endpoints",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.endpoints.boards_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "OrganizationsApiHelper",
+        "importPath": "api.tests.organizations.helpers.organizations_api_helpers",
+        "description": "api.tests.organizations.helpers.organizations_api_helpers",
+        "isExtraImport": true,
+        "detail": "api.tests.organizations.helpers.organizations_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "OrganizationsApiHelper",
+        "importPath": "api.tests.organizations.helpers.organizations_api_helpers",
+        "description": "api.tests.organizations.helpers.organizations_api_helpers",
+        "isExtraImport": true,
+        "detail": "api.tests.organizations.helpers.organizations_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "playwright.sync_api",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "StatusCodeValidator",
+        "importPath": "api.helpers.status_code_validator",
+        "description": "api.helpers.status_code_validator",
+        "isExtraImport": true,
+        "detail": "api.helpers.status_code_validator",
+        "documentation": {}
+    },
+    {
+        "label": "BoardsApiHelper",
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "OrganizationsEndpointsConstants",
+        "importPath": "api.tests.organizations.constants.organizations_endpoints_constants",
+        "description": "api.tests.organizations.constants.organizations_endpoints_constants",
+        "isExtraImport": true,
+        "detail": "api.tests.organizations.constants.organizations_endpoints_constants",
+        "documentation": {}
+    },
+    {
+        "label": "LoginElements",
+        "importPath": "ui.pom.login.login_elements",
+        "description": "ui.pom.login.login_elements",
+        "isExtraImport": true,
+        "detail": "ui.pom.login.login_elements",
+        "documentation": {}
+    },
+    {
+        "label": "LoginElements",
+        "importPath": "ui.pom.login.login_elements",
+        "description": "ui.pom.login.login_elements",
+        "isExtraImport": true,
+        "detail": "ui.pom.login.login_elements",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPage",
+        "importPath": "ui.pom.login.login_page",
+        "description": "ui.pom.login.login_page",
+        "isExtraImport": true,
+        "detail": "ui.pom.login.login_page",
+        "documentation": {}
+    },
+    {
+        "label": "DashboardPage",
+        "importPath": "ui.pom.dashboard.dashboard_page",
+        "description": "ui.pom.dashboard.dashboard_page",
+        "isExtraImport": true,
+        "detail": "ui.pom.dashboard.dashboard_page",
+        "documentation": {}
+    },
+    {
+        "label": "ApiCalls",
+        "kind": 6,
+        "importPath": "api.helpers.api_calls",
+        "description": "api.helpers.api_calls",
+        "peekOfCode": "class ApiCalls:\n    def __init__(self):\n        env = get_env()\n        self.base_url = env['baseUrl']\n        self.api_key = env['apiKey']\n        self.api_token = env['apiToken']\n        self.url_path = '/1'\n    def _send_request(self, request_data):\n        url = f\"{self.base_url}{self.url_path}/{request_data['endpoint']}?key={self.api_key}&token={self.api_token}\"\n        response = requests.request(",
+        "detail": "api.helpers.api_calls",
+        "documentation": {}
+    },
+    {
+        "label": "StatusCodeValidator",
+        "kind": 6,
+        "importPath": "api.helpers.status_code_validator",
+        "description": "api.helpers.status_code_validator",
+        "peekOfCode": "class StatusCodeValidator:\n    def http200_validations(self, httpResponse):\n        assert httpResponse.status == 200, f\"Expected status code 200 but got {httpResponse.status}\"\n        assert httpResponse.is_ok_status_code, \"Expected OK status code\"\n        assert httpResponse.status_text == 'OK', f\"Expected status text 'OK' but got {httpResponse.status_text}\"",
+        "detail": "api.helpers.status_code_validator",
+        "documentation": {}
+    },
+    {
+        "label": "BoardsEndpointsConstants",
+        "kind": 5,
+        "importPath": "api.tests.boards.constants.BoardsEndpointsConstants",
+        "description": "api.tests.boards.constants.BoardsEndpointsConstants",
+        "peekOfCode": "BoardsEndpointsConstants = {\n    'GET_BOARD': 'boards/{boardId}',\n    'POST_BOARD': 'boards',\n    'PUT_BOARD': 'boards/{boardId}',\n    'DELETE_BOARD': 'boards/{boardId}',\n}",
+        "detail": "api.tests.boards.constants.BoardsEndpointsConstants",
+        "documentation": {}
+    },
+    {
+        "label": "BoardEndpoints",
+        "kind": 6,
+        "importPath": "api.tests.boards.endpoints.boards_endpoints",
+        "description": "api.tests.boards.endpoints.boards_endpoints",
+        "peekOfCode": "class BoardEndpoints:\n    @staticmethod\n    def get_board_by_id(board_id):\n        return BoardsEndpointsConstants.GET_BOARD.replace('{boardId}', board_id)\n    @staticmethod\n    def update_board_by_id(board_id):\n        return BoardsEndpointsConstants.PUT_BOARD.replace('{boardId}', board_id)\n    @staticmethod\n    def delete_board_by_id(board_id):\n        return BoardsEndpointsConstants.DELETE_BOARD.replace('{boardId}', board_id)",
+        "detail": "api.tests.boards.endpoints.boards_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "BoardsApiHelper",
+        "kind": 6,
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "peekOfCode": "class BoardsApiHelper:\n    def __init__(self):\n        self.boards_endpoints = BoardEndpoints()\n        self.organizations_api_helper = OrganizationsApiHelper()\n    def create_board(self):\n        with open('create_board_body.json', 'r') as file:\n            request_body = json.load(file)\n        return self.boards_endpoints.post_request(BoardsEndpointsConstants.POST_BOARD, request_body).alias('create_board')\n    def update_board(self, board_id):\n        with open('update_board_body.json', 'r') as file:",
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "setup_teardown",
+        "kind": 2,
+        "importPath": "api.tests.boards.specs.boards_api_testsuite",
+        "description": "api.tests.boards.specs.boards_api_testsuite",
+        "peekOfCode": "def setup_teardown():\n    yield\n    # Teardown code goes here, if needed after all tests in the module\n@pytest.fixture(autouse=True)\ndef cleanup_boards():\n    # Cleanup boards after each test\n    boards_api_helper.delete_all_boards()\n@pytest.mark.asyncio\nasync def test_get_all_boards():\n    response = await organizations_api_helper.get_boards_in_organization()",
+        "detail": "api.tests.boards.specs.boards_api_testsuite",
+        "documentation": {}
+    },
+    {
+        "label": "cleanup_boards",
+        "kind": 2,
+        "importPath": "api.tests.boards.specs.boards_api_testsuite",
+        "description": "api.tests.boards.specs.boards_api_testsuite",
+        "peekOfCode": "def cleanup_boards():\n    # Cleanup boards after each test\n    boards_api_helper.delete_all_boards()\n@pytest.mark.asyncio\nasync def test_get_all_boards():\n    response = await organizations_api_helper.get_boards_in_organization()\n    validator.http200_validations(response)\n@pytest.mark.asyncio\nasync def test_create_board():\n    create_response = await boards_api_helper.create_board()",
+        "detail": "api.tests.boards.specs.boards_api_testsuite",
+        "documentation": {}
+    },
+    {
+        "label": "validator",
+        "kind": 5,
+        "importPath": "api.tests.boards.specs.boards_api_testsuite",
+        "description": "api.tests.boards.specs.boards_api_testsuite",
+        "peekOfCode": "validator = StatusCodeValidator()\nboards_api_helper = BoardsApiHelper()\norganizations_api_helper = OrganizationsApiHelper()\n@pytest.fixture(scope=\"module\", autouse=True)\ndef setup_teardown():\n    yield\n    # Teardown code goes here, if needed after all tests in the module\n@pytest.fixture(autouse=True)\ndef cleanup_boards():\n    # Cleanup boards after each test",
+        "detail": "api.tests.boards.specs.boards_api_testsuite",
+        "documentation": {}
+    },
+    {
+        "label": "boards_api_helper",
+        "kind": 5,
+        "importPath": "api.tests.boards.specs.boards_api_testsuite",
+        "description": "api.tests.boards.specs.boards_api_testsuite",
+        "peekOfCode": "boards_api_helper = BoardsApiHelper()\norganizations_api_helper = OrganizationsApiHelper()\n@pytest.fixture(scope=\"module\", autouse=True)\ndef setup_teardown():\n    yield\n    # Teardown code goes here, if needed after all tests in the module\n@pytest.fixture(autouse=True)\ndef cleanup_boards():\n    # Cleanup boards after each test\n    boards_api_helper.delete_all_boards()",
+        "detail": "api.tests.boards.specs.boards_api_testsuite",
+        "documentation": {}
+    },
+    {
+        "label": "organizations_api_helper",
+        "kind": 5,
+        "importPath": "api.tests.boards.specs.boards_api_testsuite",
+        "description": "api.tests.boards.specs.boards_api_testsuite",
+        "peekOfCode": "organizations_api_helper = OrganizationsApiHelper()\n@pytest.fixture(scope=\"module\", autouse=True)\ndef setup_teardown():\n    yield\n    # Teardown code goes here, if needed after all tests in the module\n@pytest.fixture(autouse=True)\ndef cleanup_boards():\n    # Cleanup boards after each test\n    boards_api_helper.delete_all_boards()\n@pytest.mark.asyncio",
+        "detail": "api.tests.boards.specs.boards_api_testsuite",
+        "documentation": {}
+    },
+    {
+        "label": "OrganizationsEndpointsConstants",
+        "kind": 6,
+        "importPath": "api.tests.organizations.constants.organizations_endpoints_constants",
+        "description": "api.tests.organizations.constants.organizations_endpoints_constants",
+        "peekOfCode": "class OrganizationsEndpointsConstants:\n    GET_BOARDS_IN_ORGANIZATION = 'organization/userworkspace15786559/boards'",
+        "detail": "api.tests.organizations.constants.organizations_endpoints_constants",
+        "documentation": {}
+    },
+    {
+        "label": "OrganizationsApiHelper",
+        "kind": 6,
+        "importPath": "api.tests.organizations.helpers.organizations_api_helpers",
+        "description": "api.tests.organizations.helpers.organizations_api_helpers",
+        "peekOfCode": "class OrganizationsApiHelper:\n    def __init__(self, page: Page):\n        self.page = page\n    def get_boards_in_organization(self):\n        endpoint = OrganizationsEndpointsConstants.GET_BOARDS_IN_ORGANIZATION\n        # Implement cy.getRequest functionality with Playwright\n        # Example: response = self.page.get(endpoint)\n        # Assuming 'self.page' represents the Playwright page instance\n        response = self.page.get(endpoint)\n        return response",
+        "detail": "api.tests.organizations.helpers.organizations_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "get_env",
+        "kind": 2,
+        "importPath": "config.env_handler",
+        "description": "config.env_handler",
+        "peekOfCode": "def get_env(env_selected='dev'):\n    with open('config/app.json') as f:\n        environment_list = {\n            'dev': json.load(f)\n        }\n    return environment_list.get(env_selected, environment_list['dev'])",
+        "detail": "config.env_handler",
+        "documentation": {}
+    },
+    {
+        "label": "DashboardPage",
+        "kind": 6,
+        "importPath": "ui.pom.dashboard.dashboard_page",
+        "description": "ui.pom.dashboard.dashboard_page",
+        "peekOfCode": "class DashboardPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.boards_label = self.page.locator(\"#content\").get_by_role(\"navigation\").get_by_role(\"link\", name=\" Boards\")\n    def login(self, username, password):\n        self.username_input.fill(username)\n        self.continue_button.click()\n        self.password_input.fill(password)\n        self.login_button.click()",
+        "detail": "ui.pom.dashboard.dashboard_page",
+        "documentation": {}
+    },
+    {
+        "label": "LoginElements",
+        "kind": 6,
+        "importPath": "ui.pom.login.login_elements",
+        "description": "ui.pom.login.login_elements",
+        "peekOfCode": "class LoginElements:\n    def __init__(self, page: Page):\n        self.page = page\n        self.username_input = self.page.get_by_test_id(\"username\")\n        self.continue_button = self.page.get_by_role(\"button\", name=\"Continue\")\n        self.password_input = self.page.get_by_test_id(\"password\")\n        self.login_button = self.page.get_by_role(\"button\", name=\"Log in\")\n        self.incorrectEmail_label = self.page.get_by_text(\"Incorrect email address and\")\n        self.boards_label = self.page.get_by_role(\"navigation\").get_by_role(\"link\", name=\"Boards\")",
+        "detail": "ui.pom.login.login_elements",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPage",
+        "kind": 6,
+        "importPath": "ui.pom.login.login_page",
+        "description": "ui.pom.login.login_page",
+        "peekOfCode": "class LoginPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.page.goto(\"http://trello.com\")\n        page.get_by_test_id(\"bignav\").get_by_role(\"link\", name=\"Log in\").click()\n        self.elements = LoginElements(page)\n    def login(self, username, password):\n        self.elements.username_input.fill(username)\n        self.elements.continue_button.click()\n        self.elements.password_input.fill(password)",
+        "detail": "ui.pom.login.login_page",
+        "documentation": {}
+    },
+    {
+        "label": "browser_type_launch_args",
+        "kind": 2,
+        "importPath": "ui.tests_ui.test_example",
+        "description": "ui.tests_ui.test_example",
+        "peekOfCode": "def browser_type_launch_args():\n    return {\n        \"headless\": False,\n        \"slow_mo\": 500,\n    }\ndef test_successful_login(page: Page):\n    username = \"josemendez.qaengineer@gmail.com\"\n    password = \"123Queso!\"\n    login_page = LoginPage(page)\n    login_page.login(username, password)",
+        "detail": "ui.tests_ui.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_successful_login",
+        "kind": 2,
+        "importPath": "ui.tests_ui.test_example",
+        "description": "ui.tests_ui.test_example",
+        "peekOfCode": "def test_successful_login(page: Page):\n    username = \"josemendez.qaengineer@gmail.com\"\n    password = \"123Queso!\"\n    login_page = LoginPage(page)\n    login_page.login(username, password)\ndef test_failed_login(page: Page):\n    username = \"josemendez.qaengineer@gmail.not\"\n    password = \"123Queso!\"\n    login_page = LoginPage(page)\n    login_page.login(username, password)",
+        "detail": "ui.tests_ui.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_failed_login",
+        "kind": 2,
+        "importPath": "ui.tests_ui.test_example",
+        "description": "ui.tests_ui.test_example",
+        "peekOfCode": "def test_failed_login(page: Page):\n    username = \"josemendez.qaengineer@gmail.not\"\n    password = \"123Queso!\"\n    login_page = LoginPage(page)\n    login_page.login(username, password)\n    assert login_page.is_incorrect_email_message_displayed()",
+        "detail": "ui.tests_ui.test_example",
+        "documentation": {}
+    }
+]
