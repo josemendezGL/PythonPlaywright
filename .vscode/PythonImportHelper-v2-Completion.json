@@ -1,5 +1,54 @@
 [
     {
+        "label": "BOARDS_ENDPOINTS",
+        "importPath": "api.tests.boards.constants.boards_constants",
+        "description": "api.tests.boards.constants.boards_constants",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.constants.boards_constants",
+        "documentation": {}
+    },
+    {
+        "label": "BOARDS_ENDPOINTS",
+        "importPath": "api.tests.boards.constants.boards_constants",
+        "description": "api.tests.boards.constants.boards_constants",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.constants.boards_constants",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "APIRequestContext",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "APIRequestContext",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
         "label": "APIRequestContext",
         "importPath": "playwright.sync_api",
         "description": "playwright.sync_api",
@@ -72,20 +121,19 @@
         "documentation": {}
     },
     {
-        "label": "ORGANIZATION_ENDPOINTS",
-        "importPath": "api.tests.organizations.constants.organizations_endpoints",
-        "description": "api.tests.organizations.constants.organizations_endpoints",
+        "label": "get_all_organizations",
+        "importPath": "api.tests.organizations.helpers.organizations_api_helper",
+        "description": "api.tests.organizations.helpers.organizations_api_helper",
         "isExtraImport": true,
-        "detail": "api.tests.organizations.constants.organizations_endpoints",
+        "detail": "api.tests.organizations.helpers.organizations_api_helper",
         "documentation": {}
     },
     {
-        "label": "pytest",
-        "kind": 6,
+        "label": "get_all_organizations",
+        "importPath": "api.tests.organizations.helpers.organizations_api_helper",
+        "description": "api.tests.organizations.helpers.organizations_api_helper",
         "isExtraImport": true,
-        "importPath": "pytest",
-        "description": "pytest",
-        "detail": "pytest",
+        "detail": "api.tests.organizations.helpers.organizations_api_helper",
         "documentation": {}
     },
     {
@@ -103,6 +151,72 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "ORGANIZATION_ENDPOINTS",
+        "importPath": "api.tests.organizations.constants.organizations_endpoints",
+        "description": "api.tests.organizations.constants.organizations_endpoints",
+        "isExtraImport": true,
+        "detail": "api.tests.organizations.constants.organizations_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "ORGANIZATION_ENDPOINTS",
+        "importPath": "api.tests.organizations.constants.organizations_endpoints",
+        "description": "api.tests.organizations.constants.organizations_endpoints",
+        "isExtraImport": true,
+        "detail": "api.tests.organizations.constants.organizations_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "delete_board_by_id",
+        "importPath": "api.tests.boards.endpoints.boards_endpoints",
+        "description": "api.tests.boards.endpoints.boards_endpoints",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.endpoints.boards_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.parse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "create_board",
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "delete_all_boards",
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "delete_board",
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
         "documentation": {}
     },
     {
@@ -138,6 +252,132 @@
         "documentation": {}
     },
     {
+        "label": "BOARDS_ENDPOINTS",
+        "kind": 5,
+        "importPath": "api.tests.boards.constants.boards_constants",
+        "description": "api.tests.boards.constants.boards_constants",
+        "peekOfCode": "BOARDS_ENDPOINTS = {\n    'GET_BOARD': 'boards/{boardId}',\n    'POST_BOARD': 'boards',\n    'PUT_BOARD': 'boards/{boardId}',\n    'DELETE_BOARD': 'boards/{boardId}',\n}",
+        "detail": "api.tests.boards.constants.boards_constants",
+        "documentation": {}
+    },
+    {
+        "label": "get_board_by_id",
+        "kind": 2,
+        "importPath": "api.tests.boards.endpoints.boards_endpoints",
+        "description": "api.tests.boards.endpoints.boards_endpoints",
+        "peekOfCode": "def get_board_by_id(board_id):\n        return BOARDS_ENDPOINTS.GET_BOARD.format(boardId=board_id)\ndef update_board_by_id(board_id):\n        return BOARDS_ENDPOINTS.PUT_BOARD.format(boardId=board_id)\ndef delete_board_by_id(board_id):\n        return BOARDS_ENDPOINTS.DELETE_BOARD.format(boardId=board_id)",
+        "detail": "api.tests.boards.endpoints.boards_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "update_board_by_id",
+        "kind": 2,
+        "importPath": "api.tests.boards.endpoints.boards_endpoints",
+        "description": "api.tests.boards.endpoints.boards_endpoints",
+        "peekOfCode": "def update_board_by_id(board_id):\n        return BOARDS_ENDPOINTS.PUT_BOARD.format(boardId=board_id)\ndef delete_board_by_id(board_id):\n        return BOARDS_ENDPOINTS.DELETE_BOARD.format(boardId=board_id)",
+        "detail": "api.tests.boards.endpoints.boards_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "delete_board_by_id",
+        "kind": 2,
+        "importPath": "api.tests.boards.endpoints.boards_endpoints",
+        "description": "api.tests.boards.endpoints.boards_endpoints",
+        "peekOfCode": "def delete_board_by_id(board_id):\n        return BOARDS_ENDPOINTS.DELETE_BOARD.format(boardId=board_id)",
+        "detail": "api.tests.boards.endpoints.boards_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "create_board",
+        "kind": 2,
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "peekOfCode": "def create_board(api_context: APIRequestContext):\n    create_board_url = BOARDS_ENDPOINTS[\"POST_BOARD\"] + '?key=f67ad04141e131370165b7d6c17450fa&token=ATTAaa0a3e118da8914edcd7982318ee93abbfe17549c1412ef58aa220237f6ef9d6A108439D'\n    request_body = {\"name\": \"My Board (API)\"}\n    response = api_context.post(create_board_url, data=request_body)\n    return response\ndef delete_board(api_context: APIRequestContext, board_id):\n    base_url = 'https://api.trello.com/1/'\n    # Construir la URL completa con el endpoint y los parámetros\n    delete_board_url = urllib.parse.urljoin(base_url, BOARDS_ENDPOINTS[\"DELETE_BOARD\"].format(boardId=board_id))\n    delete_board_url += f'?key={API_KEY}&token={TOKEN}'",
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "delete_board",
+        "kind": 2,
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "peekOfCode": "def delete_board(api_context: APIRequestContext, board_id):\n    base_url = 'https://api.trello.com/1/'\n    # Construir la URL completa con el endpoint y los parámetros\n    delete_board_url = urllib.parse.urljoin(base_url, BOARDS_ENDPOINTS[\"DELETE_BOARD\"].format(boardId=board_id))\n    delete_board_url += f'?key={API_KEY}&token={TOKEN}'\n    print(\"Current URL:\", delete_board_url)\n    response = api_context.delete(delete_board_url)\n    print(f\"Status code: {response.status}\")\n    print(f\"Response text: {response.text()}\")\n    # Intentar analizar JSON si el estado es OK",
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "delete_all_boards",
+        "kind": 2,
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "peekOfCode": "def delete_all_boards(api_context: APIRequestContext):\n    # Obtain all boards in organization\n    base_url = 'https://api.trello.com/1/'\n    all_boards_in_organization = ORGANIZATION_ENDPOINTS['GET_BOARDS_IN_ORGANIZATION'] + '?key=f67ad04141e131370165b7d6c17450fa&token=ATTAaa0a3e118da8914edcd7982318ee93abbfe17549c1412ef58aa220237f6ef9d6A108439D'\n    all_boards_response = api_context.get(all_boards_in_organization)\n    if all_boards_response.status != 200:\n        print(f\"Failed to fetch boards. Status code: {all_boards_response.status}\")\n        return\n    boards_data = all_boards_response.json()\n    for board in boards_data:",
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "peekOfCode": "API_KEY = 'f67ad04141e131370165b7d6c17450fa'\nTOKEN = 'ATTAaa0a3e118da8914edcd7982318ee93abbfe17549c1412ef58aa220237f6ef9d6A108439D'\ndef create_board(api_context: APIRequestContext):\n    create_board_url = BOARDS_ENDPOINTS[\"POST_BOARD\"] + '?key=f67ad04141e131370165b7d6c17450fa&token=ATTAaa0a3e118da8914edcd7982318ee93abbfe17549c1412ef58aa220237f6ef9d6A108439D'\n    request_body = {\"name\": \"My Board (API)\"}\n    response = api_context.post(create_board_url, data=request_body)\n    return response\ndef delete_board(api_context: APIRequestContext, board_id):\n    base_url = 'https://api.trello.com/1/'\n    # Construir la URL completa con el endpoint y los parámetros",
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "TOKEN",
+        "kind": 5,
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "peekOfCode": "TOKEN = 'ATTAaa0a3e118da8914edcd7982318ee93abbfe17549c1412ef58aa220237f6ef9d6A108439D'\ndef create_board(api_context: APIRequestContext):\n    create_board_url = BOARDS_ENDPOINTS[\"POST_BOARD\"] + '?key=f67ad04141e131370165b7d6c17450fa&token=ATTAaa0a3e118da8914edcd7982318ee93abbfe17549c1412ef58aa220237f6ef9d6A108439D'\n    request_body = {\"name\": \"My Board (API)\"}\n    response = api_context.post(create_board_url, data=request_body)\n    return response\ndef delete_board(api_context: APIRequestContext, board_id):\n    base_url = 'https://api.trello.com/1/'\n    # Construir la URL completa con el endpoint y los parámetros\n    delete_board_url = urllib.parse.urljoin(base_url, BOARDS_ENDPOINTS[\"DELETE_BOARD\"].format(boardId=board_id))",
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "api_context",
+        "kind": 2,
+        "importPath": "api.tests.boards.specs.tests_boards",
+        "description": "api.tests.boards.specs.tests_boards",
+        "peekOfCode": "def api_context(playwright: Playwright) -> APIRequestContext:\n    api_context = playwright.request.new_context(\n        base_url=\"https://api.trello.com/1/\",\n        extra_http_headers={'Content-Type': 'application/json'},\n    )\n    yield api_context\n    api_context.dispose()\n@pytest.mark.skip()\ndef test_get_all_boards(api_context: APIRequestContext):\n    response = get_all_organizations(api_context)",
+        "detail": "api.tests.boards.specs.tests_boards",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_all_boards",
+        "kind": 2,
+        "importPath": "api.tests.boards.specs.tests_boards",
+        "description": "api.tests.boards.specs.tests_boards",
+        "peekOfCode": "def test_get_all_boards(api_context: APIRequestContext):\n    response = get_all_organizations(api_context)\n    # Print status and raw response text for debugging\n    print(f\"Status code: {response.status}\")\n    #assert(response.status==200)\n    print(f\"Response text: {response.text()}\")\n    # Attempt to parse JSON if status is OK\n    if response.status == 200:\n        try:\n            json_data = response.json()",
+        "detail": "api.tests.boards.specs.tests_boards",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_board",
+        "kind": 2,
+        "importPath": "api.tests.boards.specs.tests_boards",
+        "description": "api.tests.boards.specs.tests_boards",
+        "peekOfCode": "def test_create_board(api_context: APIRequestContext):\n    response = create_board(api_context)\n    print(f\"Status code: {response.status}\")\n    #assert(response.status==200)\n    print(f\"Response text: {response.text()}\")\n    # Attempt to parse JSON if status is OK\n    if response.status == 200:\n        try:\n            json_data = response.json()\n            print(json_data)",
+        "detail": "api.tests.boards.specs.tests_boards",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete_board",
+        "kind": 2,
+        "importPath": "api.tests.boards.specs.tests_boards",
+        "description": "api.tests.boards.specs.tests_boards",
+        "peekOfCode": "def test_delete_board(api_context: APIRequestContext):\n    create_response = create_board(api_context)\n    print(f\"Status code: {create_response.status}\")\n    #assert(response.status==200)\n    print(f\"Response text: {create_response.text()}\")\n    created_board_text = create_response.text()    \n    created_board_dict = json.loads(created_board_text)\n    # Obtener el valor del campo 'id'\n    created_board_id = created_board_dict['id']\n    create_response = delete_board(api_context, created_board_id)",
+        "detail": "api.tests.boards.specs.tests_boards",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete_all_boards",
+        "kind": 2,
+        "importPath": "api.tests.boards.specs.tests_boards",
+        "description": "api.tests.boards.specs.tests_boards",
+        "peekOfCode": "def test_delete_all_boards(api_context: APIRequestContext):\n    response = delete_all_boards(api_context)\n    print(response.body())",
+        "detail": "api.tests.boards.specs.tests_boards",
+        "documentation": {}
+    },
+    {
         "label": "ORGANIZATION_ENDPOINTS",
         "kind": 5,
         "importPath": "api.tests.organizations.constants.organizations_endpoints",
@@ -158,19 +398,19 @@
     {
         "label": "api_context",
         "kind": 2,
-        "importPath": "api.tests.organizations.specs.trello_tests",
-        "description": "api.tests.organizations.specs.trello_tests",
+        "importPath": "api.tests.organizations.specs.tests_organizations",
+        "description": "api.tests.organizations.specs.tests_organizations",
         "peekOfCode": "def api_context(playwright: Playwright) -> APIRequestContext:\n    api_context = playwright.request.new_context(\n        base_url=\"https://api.trello.com/1/\",\n        extra_http_headers={'Content-Type': 'application/json'},\n    )\n    yield api_context\n    api_context.dispose()\ndef test_get_all_organizations(api_context: APIRequestContext):\n    response = get_all_organizations(api_context)\n    # Print status and raw response text for debugging",
-        "detail": "api.tests.organizations.specs.trello_tests",
+        "detail": "api.tests.organizations.specs.tests_organizations",
         "documentation": {}
     },
     {
         "label": "test_get_all_organizations",
         "kind": 2,
-        "importPath": "api.tests.organizations.specs.trello_tests",
-        "description": "api.tests.organizations.specs.trello_tests",
+        "importPath": "api.tests.organizations.specs.tests_organizations",
+        "description": "api.tests.organizations.specs.tests_organizations",
         "peekOfCode": "def test_get_all_organizations(api_context: APIRequestContext):\n    response = get_all_organizations(api_context)\n    # Print status and raw response text for debugging\n    print(f\"Status code: {response.status}\")\n    #assert(response.status==200)\n    print(f\"Response text: {response.text()}\")\n    # Attempt to parse JSON if status is OK\n    if response.status == 200:\n        try:\n            json_data = response.json()",
-        "detail": "api.tests.organizations.specs.trello_tests",
+        "detail": "api.tests.organizations.specs.tests_organizations",
         "documentation": {}
     },
     {

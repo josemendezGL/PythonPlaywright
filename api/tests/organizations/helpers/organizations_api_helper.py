@@ -1,5 +1,3 @@
-# organizations_api_helper.py
-
 from playwright.sync_api import APIRequestContext
 #from organizations_Endpoint_Constants import ORGANIZATION_ENDPOINTS
 from api.tests.organizations.constants.organizations_endpoints import ORGANIZATION_ENDPOINTS
