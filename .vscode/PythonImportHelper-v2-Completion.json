@@ -220,6 +220,22 @@
         "documentation": {}
     },
     {
+        "label": "update_board",
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "get_board",
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "isExtraImport": true,
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
         "label": "LoginElements",
         "importPath": "ui.pom.login.login_elements",
         "description": "ui.pom.login.login_elements",
@@ -315,6 +331,24 @@
         "documentation": {}
     },
     {
+        "label": "update_board",
+        "kind": 2,
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "peekOfCode": "def update_board(api_context: APIRequestContext, board_id):\n    base_url = 'https://api.trello.com/1/'\n    # Construir la URL completa con el endpoint y los parámetros\n    update_board_url = urllib.parse.urljoin(base_url, BOARDS_ENDPOINTS[\"PUT_BOARD\"].format(boardId=board_id))\n    update_board_url += f'?key={API_KEY}&token={TOKEN}'\n    request_body = {\"name\": \"My Board (API) - Updated\"}\n    print(\"Current URL:\", update_board_url)\n    response = api_context.put(update_board_url, data=request_body)\n    print(f\"Status code: {response.status}\")\n    print(f\"Response text: {response.text()}\")",
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
+        "label": "get_board",
+        "kind": 2,
+        "importPath": "api.tests.boards.helpers.boards_api_helpers",
+        "description": "api.tests.boards.helpers.boards_api_helpers",
+        "peekOfCode": "def get_board(api_context: APIRequestContext, board_id):\n    base_url = 'https://api.trello.com/1/'\n    # Construir la URL completa con el endpoint y los parámetros\n    get_board_url = urllib.parse.urljoin(base_url, BOARDS_ENDPOINTS[\"GET_BOARD\"].format(boardId=board_id))\n    get_board_url += f'?key={API_KEY}&token={TOKEN}'\n    print(\"Current URL:\", get_board_url)\n    response = api_context.get(get_board_url)\n    print(f\"Status code: {response.status}\")\n    print(f\"Response text: {response.text()}\")\n    # Intentar analizar JSON si el estado es OK",
+        "detail": "api.tests.boards.helpers.boards_api_helpers",
+        "documentation": {}
+    },
+    {
         "label": "API_KEY",
         "kind": 5,
         "importPath": "api.tests.boards.helpers.boards_api_helpers",
@@ -373,7 +407,25 @@
         "kind": 2,
         "importPath": "api.tests.boards.specs.tests_boards",
         "description": "api.tests.boards.specs.tests_boards",
-        "peekOfCode": "def test_delete_all_boards(api_context: APIRequestContext):\n    response = delete_all_boards(api_context)\n    print(response.body())",
+        "peekOfCode": "def test_delete_all_boards(api_context: APIRequestContext):\n    response = delete_all_boards(api_context)\n    print(response.body())\n@pytest.mark.skip()  \ndef test_update_board(api_context: APIRequestContext):\n    create_response = create_board(api_context)\n    print(f\"Status code: {create_response.status}\")\n    #assert(response.status==200)\n    print(f\"Response text: {create_response.text()}\")\n    created_board_text = create_response.text()    ",
+        "detail": "api.tests.boards.specs.tests_boards",
+        "documentation": {}
+    },
+    {
+        "label": "test_update_board",
+        "kind": 2,
+        "importPath": "api.tests.boards.specs.tests_boards",
+        "description": "api.tests.boards.specs.tests_boards",
+        "peekOfCode": "def test_update_board(api_context: APIRequestContext):\n    create_response = create_board(api_context)\n    print(f\"Status code: {create_response.status}\")\n    #assert(response.status==200)\n    print(f\"Response text: {create_response.text()}\")\n    created_board_text = create_response.text()    \n    created_board_dict = json.loads(created_board_text)\n    # Obtener el valor del campo 'id'\n    created_board_id = created_board_dict['id']\n    update_response = update_board(api_context, created_board_id)",
+        "detail": "api.tests.boards.specs.tests_boards",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_board",
+        "kind": 2,
+        "importPath": "api.tests.boards.specs.tests_boards",
+        "description": "api.tests.boards.specs.tests_boards",
+        "peekOfCode": "def test_get_board(api_context: APIRequestContext):  \n    create_response = create_board(api_context)\n    print(f\"Status code: {create_response.status}\")\n    #assert(response.status==200)\n    print(f\"Response text: {create_response.text()}\")\n    created_board_text = create_response.text()    \n    created_board_dict = json.loads(created_board_text)\n    # Obtener el valor del campo 'id'\n    created_board_id = created_board_dict['id']\n    get_response = get_board(api_context, created_board_id)",
         "detail": "api.tests.boards.specs.tests_boards",
         "documentation": {}
     },

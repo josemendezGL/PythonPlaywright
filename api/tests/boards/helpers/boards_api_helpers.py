@@ -65,3 +65,57 @@ def delete_all_boards(api_context: APIRequestContext):
         print(f"Deleted board with ID {board_id}. Status code: {response.status}")
     
     return response
+
+
+
+def update_board(api_context: APIRequestContext, board_id):
+    base_url = 'https://api.trello.com/1/'
+
+    # Construir la URL completa con el endpoint y los parámetros
+    update_board_url = urllib.parse.urljoin(base_url, BOARDS_ENDPOINTS["PUT_BOARD"].format(boardId=board_id))
+    update_board_url += f'?key={API_KEY}&token={TOKEN}'
+
+    request_body = {"name": "My Board (API) - Updated"}
+
+    print("Current URL:", update_board_url)
+    response = api_context.put(update_board_url, data=request_body)
+    
+    print(f"Status code: {response.status}")
+    print(f"Response text: {response.text()}")
+    
+    # Intentar analizar JSON si el estado es OK
+    if response.status == 200:
+        try:
+            json_data = response.json()
+            print(json_data)
+        except Exception as e:
+            print(f"Failed to parse JSON: {e}")
+    else:
+        print("Request failed with status code:", response.status)
+    
+    return response
+
+def get_board(api_context: APIRequestContext, board_id):
+    base_url = 'https://api.trello.com/1/'
+
+    # Construir la URL completa con el endpoint y los parámetros
+    get_board_url = urllib.parse.urljoin(base_url, BOARDS_ENDPOINTS["GET_BOARD"].format(boardId=board_id))
+    get_board_url += f'?key={API_KEY}&token={TOKEN}'
+
+    print("Current URL:", get_board_url)
+    response = api_context.get(get_board_url)
+    
+    print(f"Status code: {response.status}")
+    print(f"Response text: {response.text()}")
+    
+    # Intentar analizar JSON si el estado es OK
+    if response.status == 200:
+        try:
+            json_data = response.json()
+            print(json_data)
+        except Exception as e:
+            print(f"Failed to parse JSON: {e}")
+    else:
+        print("Request failed with status code:", response.status)
+    
+    return response        
